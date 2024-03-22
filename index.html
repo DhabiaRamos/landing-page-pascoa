@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <title>Pascoa</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="title">
+            <h2 class="logo-text">O Paraíso dos <br>
+                <span>Ovos de Páscoa</span>
+            </h2>
+        </div>
+
+        <nav class="header-nav-links">
+            <a href="#home" class="header-links">Inicio</a>
+            <a href="#product" class="header-links">Produtos</a>
+            <a href="#contact" class="header-links">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+
+            <div class="content-home">
+
+                <h2>A Páscoa é doce!</h2>
+                <h3>Compre os melhores ovos de Páscoa aqui!</h3>
+
+                <p>
+                    A Páscoa está chegando e você quer comprar os melhores
+                    ovos de Páscoa para sua família e amigos? Aqui você
+                    encontra os melhores ovos de Páscoa, feitos com os
+                    melhores ingredientes e com muito amor.
+                </p>
+
+            </div>
+
+            <div class="image-home">
+                <img class="img-bunny" src="./src/assets/coelho-pascoa.png" alt="um coelho segurando ovos de pascoa">
+            </div>
+
+        </section>
+
+
+        <section id="slider">
+
+            <div class="slider-content">
+                <img src="./src/assets/img1-slider.jpg" alt="" class="img-slider">
+                <img src="./src/assets/img2-slider.jpg" alt="" class="img-slider">
+                <img src="./src/assets/img3-slider.jpg" alt="" class="img-slider">
+                <img src="./src/assets/img4-slider.jpg" alt="" class="img-slider">
+            </div>
+
+        </section>
+
+
+        <section id="product">
+
+            <div class="product-buttons">
+                <button class="product-btn active">Promoção do Dia</button>
+                <button class="product-btn">Mais Pedido</button>
+                <button class="product-btn">Outras Opções</button>
+            </div>
+
+            <div class="product-content">
+
+                <div class="product-content-item show">
+
+                    <div class="product-item">
+                        <img class="img-product" src="./src/assets/ovo-pascoa-chocolate.png"
+                            alt="ovo de pascoa chocolate">
+                        <h2 class="title-product">Ovo de Pascoa de Chocolate</h2>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+
+                    <div class="product-item">
+                        <img class="img-product" src="./src/assets/ovo-pascoa-coco.png" alt="ovo de pascoa coco">
+                        <h2 class="title-product">Ovo de Pascoa de Coco</h2>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+
+                </div>
+
+                <div class="product-content-item">
+
+                    <div class="product-item">
+                        <img class="img-product" src="./src/assets/ovo-pascoa-biscoito.png"
+                            alt="ovo de pascoa biscoito">
+                        <h2 class="title-product">Ovo de Pascoa de Biscoito</h2>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+
+                    <div class="product-item">
+                        <img class="img-product" src="./src/assets/ovo-pascoa-chocolate-branco.png"
+                            alt="ovo de pascoa chocolate branco">
+                        <h2 class="title-product">Ovo de Pascoa de Chocolate Branco</h2>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+
+                </div>
+
+                <div class="product-content-item">
+
+                    <div class="product-item">
+                        <img class="img-product" src="./src/assets/ovo-pascoa-chocolate2.png"
+                            alt="ovo de pascoa chocolate2">
+                        <h2 class="title-product">Ovo de Pascoa de Chocolate 2</h2>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contact">
+
+            <h2>Contato</h2>
+
+            <form action="">
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="nome" placeholder="Digite seu nome" autocomplete="name">
+
+                <label for="phoneNumber">Telefone:</label>
+                <input type="tel" id="phoneNumber" name="telefone" placeholder="Digite seu número de telefone"
+                    autocomplete="tel">
+
+                <label for="pedido">Pedido:</label>
+                <textarea name="pedido" id="pedido" cols="30" rows="10"></textarea>
+
+                <button class="btn-submit" type="submit">Enviar</button>
+            </form>
+
+        </section>
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
